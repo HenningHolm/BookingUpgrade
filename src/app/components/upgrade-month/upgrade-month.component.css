@@ -1,0 +1,6 @@
+.month{
+
+    flex-wrap : wrap;
+    max-width: 90vw;
+    margin: 20px auto;
+}
