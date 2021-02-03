@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UpgradeMonthComponent } from './upgrade-month.component';
+import { SetTimeComponent } from './set-time.component';
 
-describe('UpgradeMonthComponent', () => {
-  let component: UpgradeMonthComponent;
-  let fixture: ComponentFixture<UpgradeMonthComponent>;
+describe('SetTimeComponent', () => {
+  let component: SetTimeComponent;
+  let fixture: ComponentFixture<SetTimeComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ UpgradeMonthComponent ]
+      declarations: [ SetTimeComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(UpgradeMonthComponent);
+    fixture = TestBed.createComponent(SetTimeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Appointment } from 'src/app/models/Appointment';
+import { FetchAppointmentsService } from 'src/app/services/fetch-appointments.service';
 
 @Component({
   selector: 'app-upgrade-calender',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UpgradeCalenderComponent implements OnInit {
 
-  constructor() { }
+  appointments!: Appointment[];
+
+
+  constructor(private appointmentService : FetchAppointmentsService) { }
 
   ngOnInit(): void {
+
+    this.appointments= this.appointmentService.getAppointments();
+
   }
 
   buildMonth(){}

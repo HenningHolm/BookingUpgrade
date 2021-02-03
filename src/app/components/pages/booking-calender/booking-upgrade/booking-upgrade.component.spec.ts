@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { UpgradeSlotComponent } from './upgrade-slot.component';
+import { BookingUpgradeComponent } from './booking-upgrade.component';
 
-describe('UpgradeSlotComponent', () => {
-  let component: UpgradeSlotComponent;
-  let fixture: ComponentFixture<UpgradeSlotComponent>;
+describe('BookingUpgradeComponent', () => {
+  let component: BookingUpgradeComponent;
+  let fixture: ComponentFixture<BookingUpgradeComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ UpgradeSlotComponent ]
+      declarations: [ BookingUpgradeComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(UpgradeSlotComponent);
+    fixture = TestBed.createComponent(BookingUpgradeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

@@ -1,4 +1,4 @@
-import { UpgradeDayComponent } from "../components/upgrade-day/upgrade-day.component";
+import { UpgradeDayComponent } from "../components/pages/booking-calender/upgrade-day/upgrade-day.component";
 import { UpgradeDay } from "./UpgradeDay";
 
 export interface UpgradeCalender{
